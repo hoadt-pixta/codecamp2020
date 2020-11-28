@@ -35,6 +35,8 @@ app.post('/api/input', function(request, response) {
             });
         })
     }
+
+    response.send("OK");
 });
 
 app.listen(3000);
